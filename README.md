@@ -1,12 +1,12 @@
-Copy🎯 Opportunity Radar
+# Opportunity Radar
 AI-Powered Stock Market Signal Detection System
 Continuously monitors corporate filings, insider trades, bulk deals, and regulatory changes — surfacing missed opportunities as daily alerts using GPT-4 intelligence.
 
-🏆 Problem Statement
+# Problem Statement
 AI for the Indian Investor (Problem #6) - ET GenAI Hackathon 2026
 Most retail investors miss 99% of important corporate signals. Opportunity Radar reads every filing, every insider trade, every bulk deal in real-time and flags opportunities before the market reacts.
 
-✨ Features
+# Features
 ✅ Automated Data Collection - Scrapes NSE/BSE announcements, insider trades, bulk deals
 ✅ GPT-4 Intelligence - Analyzes filings for hidden signals humans miss
 ✅ Smart Alerts - BUY/SELL/WATCH recommendations with confidence scores
@@ -14,7 +14,7 @@ Most retail investors miss 99% of important corporate signals. Opportunity Radar
 ✅ Live Dashboard - Real-time signal monitoring with clean UI
 ✅ Explainable AI - Every signal comes with reasoning
 
-🏗️ Architecture
+# Architecture
 Data Sources (NSE/BSE/News)
     ↓
 Data Collection Layer (Web Scrapers + APIs)
@@ -26,10 +26,12 @@ AI Intelligence Layer (GPT-4 Analysis)
 Signal Generation (BUY/SELL/WATCH)
     ↓
 Dashboard + API (FastAPI + React)
+
+
 <img width="1859" height="426" alt="image" src="https://github.com/user-attachments/assets/80893637-18e3-4f8f-bf76-eb132681ee03" />
 <img width="1824" height="844" alt="image" src="https://github.com/user-attachments/assets/693e343e-c7f5-48e2-b0f8-4ee2669f44a6" />
 
-🚀 Quick Start
+# Quick Start
 Prerequisites
 
 Python 3.8+
