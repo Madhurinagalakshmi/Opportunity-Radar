@@ -129,7 +129,7 @@ class Backtester:
         losses = [r for r in all_results if r.outcome == "loss"]
         
         win_rate = (len(profitable) / total_signals) * 100 if total_signals > 0 else 0
-        
+       
         avg_return = sum(r.return_pct for r in all_results) / total_signals
         avg_profit = sum(r.return_pct for r in profitable) / len(profitable) if profitable else 0
         avg_loss = sum(r.return_pct for r in losses) / len(losses) if losses else 0
